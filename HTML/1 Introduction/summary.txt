@@ -1,0 +1,10 @@
+* HTML stands for Hypertext Markup Language.
+* Hypertext is the clickable text which contain a link to another location used for navigation.
+* Used to define the structure of a webpage and provide meaning to the content.
+* It defines headings, paragraphs, hypertext, forms, tables and lists etc.
+* HTML consists of tags that define headings, paragraphs, hypertext, forms, tables and lists etc.
+* Tags and it's content are collectively called an HTML Element.
+* The extension of HTML file is .html and .htm where html is widely used.
+* The home page of the website are conventionally named as index.html.
+* HTML is a case insensitive language i.e <body></body> is same as <BODY></BODY>
+* HTML attributes are also case insensitive.

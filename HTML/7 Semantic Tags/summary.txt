@@ -1,0 +1,4 @@
+* Semantic tags are those that can describe it's content and have some meaning for machines.
+* Examples include header, footer, main, nav, figure, section, article and aside etc.
+* Non-Semantic elements are those which do not have specific meaning for machines and are generic.
+* Examples are div, span, i, b, u, s etc.
