@@ -1,0 +1,9 @@
+* CSS stands for Cascading Style Sheets.
+* CSS have a number of declarations to style the elements of the html.
+* CSS declarations consists of a selector, property and value.
+* Selector targets specific HTML elements for styling.
+* The property defines which style to apply i.e color, font-size, background-color etc.
+* The value is the value of that property;
+* A typical CSS declaration can be written as 
+- h1 { background-color: red; }
+* We can have as much properties in the declaration as we want.
