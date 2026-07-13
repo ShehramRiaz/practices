@@ -12,3 +12,7 @@
 * Unlike ID selector, Class selector can be used multiple times within the document.
 * Class Selector starts from dot "." followed by class name.
 * It is less specific than ID selector and more specific than element selector but we will generally use class selectors more than ID selector.
+
+* Group Selector is used to apply styles to multiple elements of different selector types.
+* All of the selectors in the group selector are separated by comma.
+* We can have same selector type or distinct selector type in group selector.
