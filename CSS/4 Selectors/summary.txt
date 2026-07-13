@@ -16,3 +16,7 @@
 * Group Selector is used to apply styles to multiple elements of different selector types.
 * All of the selectors in the group selector are separated by comma.
 * We can have same selector type or distinct selector type in group selector.
+
+* Descendant Selector is used to target the child elements of an element.
+* The child elements are separated by space with parent element.
+* For Example div p {} means, select paragraph inside the div.

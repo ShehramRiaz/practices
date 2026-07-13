@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selectors in CSS</title>
+    <style>
+        div p {
+            color: blueviolet;
+        }
+
+        div .para {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, officia?</p>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nulla distinctio a!</p>
+    </div>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, doloremque unde! Officia quod adipisci
+        vitae quis quia!</p>
+</body>
+
+</html>
