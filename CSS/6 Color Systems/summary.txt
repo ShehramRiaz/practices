@@ -1,0 +1,8 @@
+* We can represent any color by combining red, green and blue (rgb) in proper ratio.
+* We can represent colors in many forms (color systems).
+* Examples of some color systems are rgb, hex, hsl etc.
+* Popular ones are rgb and hex.
+* rgb have three values each ranges from 0-255 for red, green and blue respectively.
+* hex is just another way to represent rgb value by converting each value of rgb to 2 digit hexadecimal number.
+* hex color code starts from #
+* We can represent up to 255*255*255 = 1,65,81,375 colors using rgb values.
