@@ -1,3 +1,7 @@
 * Selector which targets HTML elements by it's name is called element selector.
-* Universal selector is used to select all elements.
+* Universal selector (*) is used to select all elements.
 * Universal Selector has 0 specificity.
+* ID selector is used to select an element of specific ID
+* The ID selector starts from # followed by the id of an element.
+* The ID should be unique per page.
+* It is more specific than element and class selectors.
