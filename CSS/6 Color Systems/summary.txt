@@ -6,3 +6,6 @@
 * hex is just another way to represent rgb value by converting each value of rgb to 2 digit hexadecimal number.
 * hex color code starts from #
 * We can represent up to 255*255*255 = 1,65,81,375 colors using rgb values.
+
+* Alpha channel can also be used in colors to control the transparency of the color.
+* In rgb the alpha value ranges from 0-1 and in hex it ranges from 00-ff
