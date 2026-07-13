@@ -1,0 +1,3 @@
+* Selector which targets HTML elements by it's name is called element selector.
+* Universal selector is used to select all elements.
+* Universal Selector has 0 specificity.
