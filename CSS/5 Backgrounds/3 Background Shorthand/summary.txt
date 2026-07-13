@@ -1,0 +1,3 @@
+* The background is the shorthand property to set all the background related properties at once.
+* The values of each property is space separated.
+* The order of the values does not matter at all with an exception that the background-position must come first from background-size with a slash between them.
