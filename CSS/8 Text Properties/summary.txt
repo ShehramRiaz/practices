@@ -3,3 +3,5 @@
 
 * font-family property have a fallback mechanism by allowing us to specify more than one font families.
 * Web safe fonts are those that are available and accessible by any browsers and we can safely use that fonts.
+
+* We can use the google fonts by copying the font's link tag.
