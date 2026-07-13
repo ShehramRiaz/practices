@@ -1,0 +1,15 @@
+* We can set background image using background-image css property.
+* The value is the path of the image either relative or absolute passed to the url function of the CSS.
+* The path can either be passed in string or without string given there are not spaces and special characters in the path.
+* For consistency, the path is always passed in a string.
+* We can pass as many comma separated values as we want where the first image appears above the image in the next value.
+
+* background-size property controls the size of image relative to container i.e cover, contain or custom values.
+* The contain property increase the size of the image until no boundary of the containing element is touched without affecting the aspect-ratio of the image.
+* The cover property increase the size of the image until the image covers the entire container without affecting the aspect-ratio of the image.
+
+* background-repeat property controls the repetition of the image when the size of the image and container are not consistent.
+
+* background-position property controls the scroll behaviour of the image when the containing element is scrollable.
+
+* background property is the shorthand property of these all properties.
