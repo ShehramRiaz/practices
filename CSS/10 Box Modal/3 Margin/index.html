@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Margin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: deepskyblue;
+            margin: 40px;
+        }
+
+        #box-3 {
+            margin: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- The space between Box1 and Box2 will be 40px not 80px -->
+    <div class="box">Box 1</div>
+    <!-- The space between Box2 and Box3 will be 60px not 100px -->
+    <div class="box">Box 2</div>
+    <div class="box" id="box-3">Box 3</div>
+</body>
+
+</html>

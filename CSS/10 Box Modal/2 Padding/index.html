@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Padding Property</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: hotpink;
+        }
+
+        #box-1 {
+            /* All directions */
+            padding: 20px;
+        }
+
+        #box-2 {
+            /* top-bottom left-right */
+            padding: 20px 40px;
+        }
+
+        #box-3 {
+            /* top left-right bottom */
+            padding: 20px 40px 25px;
+        }
+
+        #box-4 {
+            /* top right bottom left */
+            padding: 20px 40px 25px 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Box size is 140 x 140 -->
+    <div class="box" id="box-1">This is Box 1</div> <br>
+
+    <!-- Box size is 180 x 140 -->
+    <div class="box" id="box-2">This is Box 2</div> <br>
+
+    <!-- Box size is 180 x 145 -->
+    <div class="box" id="box-3">This is Box 3</div> <br>
+
+    <!-- Box size is 155 x 145 -->
+    <div class="box" id="box-4">This is Box 4</div>
+</body>
+
+</html>

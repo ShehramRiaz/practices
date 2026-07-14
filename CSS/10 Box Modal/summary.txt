@@ -1,0 +1,23 @@
+* In CSS, Every HTML element is treated as a rectangular box.
+* The layout of this box is called CSS Box Modal.
+* It contains there properties i.e Margin, Border and Padding.
+- Border Property
+    The border property adds a border to an element.
+    By default the width of the border is added with the actual width of the content. So, the final width = content-width + border-width
+
+- Padding
+    The padding property adds space between the content and the border of the element.
+    By default the size of the padding is added with the actual width of the content. So, the final width = content-width + padding-size + border-width
+    The Shorthand property of padding can have different number of values:
+        If one value is specified, the padding is added to all four directions.
+        If two values are specified, the first value set the top and bottom padding while the second one set the left and right padding of the element.
+        if three values are specified, the first and last value set the top and bottom padding while the middle one determines the padding of both left and right.
+        if four values are specified, the first value set top, second value set right, third value set bottom and last value set left padding.
+
+- Margin
+    The margin property adds space around the border of the box.
+    The size of the margin is not included in the size of the box.
+    If two adjacent elements have margin set, the space between the elements is the size of the margin of larger value.
+    The Shorthand Property is same as the padding.
+
+* The box-sizing property controls whether the width and height properties are applied to only content or applied to the whole box up to border excluding margin.
