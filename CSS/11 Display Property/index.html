@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display</title>
+
+    <style>
+        .text {
+            background-color: yellow;
+        }
+
+        .inline {
+            display: inline;
+            background-color: red;
+            color: white;
+            /* Cannot set width and height on inline element */
+            /* width: 200px; */
+            /* height: 200px; */
+
+            /* Only left and right margin and paddings are allowed in inline elements */
+            padding: 0 50px;
+            margin: 0 50px;
+        }
+
+        .block {
+            display: block;
+            background-color: magenta;
+            width: 100px;
+            height: 100px;
+            margin: 50px;
+            padding: 10px;
+            border: 3px solid;
+        }
+
+        .inline-block {
+            display: inline-block;
+            background-color: orange;
+            width: 200px;
+            height: 80px;
+            padding: 20px;
+            margin: 50px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatem obcaecati asperiores
+        in fuga repellendus sint quisquam temporibus nisi tenetur, laborum a provident, perspiciatis veniam fugit
+        cupiditate explicabo assumenda excepturi mollitia. Odio dolor error obcaecati minus, consequatur possimus hic
+        distinctio cum reprehenderit alias. Omnis vel officiis obcaecati voluptatum dolorum at qui odio eligendi natus
+    </div>
+
+    <div class="inline">This is an inline div</div>
+    <span>This is inline span</span>
+
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatem obcaecati asperiores
+        in fuga repellendus sint quisquam temporibus nisi tenetur, laborum a provident, perspiciatis veniam fugit
+        cupiditate explicabo assumenda excepturi mollitia. Odio dolor error obcaecati minus, consequatur possimus hic
+        distinctio cum reprehenderit alias. Omnis vel officiis obcaecati voluptatum dolorum at qui odio eligendi natus
+    </div>
+
+    <span class="block">This is a block span</span>
+    <span>This is an inline span</span>
+
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatem obcaecati asperiores
+        in fuga repellendus sint quisquam temporibus nisi tenetur, laborum a provident, perspiciatis veniam fugit
+        cupiditate explicabo assumenda excepturi mollitia. Odio dolor error obcaecati minus, consequatur possimus hic
+        distinctio cum reprehenderit alias. Omnis vel officiis obcaecati voluptatum dolorum at qui odio eligendi natus
+    </div>
+
+    <div>Lorem, ipsum dolor sit <span class="inline-block">This is inline block span</span> adipisicing elit. Itaque,
+        eaque!</div>
+
+    <div class="text">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi voluptatem obcaecati asperiores
+        in fuga repellendus sint quisquam temporibus nisi tenetur, laborum a provident, perspiciatis veniam fugit
+        cupiditate explicabo assumenda excepturi mollitia. Odio dolor error obcaecati minus, consequatur possimus hic
+        distinctio cum reprehenderit alias. Omnis vel officiis obcaecati voluptatum dolorum at qui odio eligendi natus
+    </div>
+</body>
+
+</html>
