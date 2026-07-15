@@ -1,0 +1,13 @@
+* We can override the value of the align-items of the flex container in the flex item using align-self property.
+
+* We can change the order of flex items by using order property.
+
+* flex-grow allow the flex items to grow when there is extra space left in the row. It's default value is 0.
+
+* flex-shrink allow the flex item to shrink when there is no extra space and the sizes of the flex items are large.
+* Both flex-grow and flex-shrink works in the direction of the main-axis.
+
+* flex-basis defines the initial size of the flex items and the remaining space left (if available) is equally distributed among all flex items.
+* flex-basis also works in the direction of the main-axis.
+
+* flex is the shorthand property for setting flex-grow flex-shrink flex-basis at once.

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Shorthand</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: yellow;
+            border: 2px solid;
+            margin: 10px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            width: 200px;
+            height: 150px;
+            background-color: cyan;
+            margin: 5px;
+            flex: 1 1 200px;
+        }
+
+        .item-3 {
+            flex: 2 0 400px;
+        }
+
+        .item-1 {
+            /* 1 1 0% */
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">Item-1</div>
+        <div class="item item-2">Item-2</div>
+        <div class="item item-3">Item-3</div>
+        <div class="item item-4">Item-4</div>
+    </div>
+</body>
+
+</html>
