@@ -1,0 +1,9 @@
+* Position property is used to position elements on the page without considering th normal flow of th document.
+* The position of the elements are set using top, bottom, left and right properties.
+* static is the default value of the position.
+* The static positioned element does not allow the top, bottom, left and right properties to have an effect.
+* relative value enable an element to move with respect to it's original position in the document normal flow while still creating it's original space in the document page.
+* absolute value enables and element to move with respect to the root element or an element positioned relative and it is removed from the normal document flow and no space is created for it on page.
+* The % width of the absolute is relative to the element to which it is moving not it's original parent.
+* fixed moves relative to the document and no space is created for the element. It stays in the same position irrespective of the scroll position.
+* sticky normally behaves like a static but when it reached the point of top, bottom, left or right value, it behaves like fixed.

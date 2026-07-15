@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            height: 100px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+
+        .box:nth-child(2n + 1) {
+            background-color: chartreuse;
+        }
+
+        .box1 {
+            /* Default */
+            position: static;
+        }
+
+        .box2 {
+            position: relative;
+            top: 50px;
+            left: 100px;
+        }
+
+        .box3 {
+            position: absolute;
+            top: 180px;
+            left: 120px;
+            width: 100%;
+        }
+
+        .box4 {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        .box5 {
+            position: sticky;
+            top: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box box1">Static</div>
+    <div class="box box2">Relative</div>
+    <div class="box box3">Absolute</div>
+    <div class="box box4">Fixed</div>
+    <div class="box box5">Sticky</div>
+
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+    <div class="box">Box</div>
+</body>
+
+</html>
