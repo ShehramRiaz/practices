@@ -1,0 +1,18 @@
+* FlexBox can be initialized using display: flex; property.
+* It declares flex-container and flex-items.
+
+* There are two axis in the FlexBox, main-axis and cross-axis.
+* main-axis and cross-axis are perpendicular to each other.
+* flex-direction property can be used to control the direction of the main-axis.
+
+* justify-content property positions the flex items along the main axis.
+
+* Flex Items does not overflow the flex container and the flex container shrinks the items down to fit into row.
+* We can override this behaviour by setting the flex-wrap property so that the flex items will be wrapped to the next line without shrinking.
+
+* align-content property positions the flex lines along the cross-axis.
+* It only works when the flex-wrap is not set to no-wrap.
+
+* align-items property positions the flex items along the cross-axis within the flex lines.
+
+* flex-flow is the shorthand property for setting flex-direction and flex-wrap at once.

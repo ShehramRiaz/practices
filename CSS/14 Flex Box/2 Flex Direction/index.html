@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Direction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: yellow;
+            border: 2px solid;
+            display: flex;
+        }
+
+        .container1 {
+            /* Default */
+            flex-direction: row;
+        }
+
+        .container2 {
+            flex-direction: row-reverse;
+        }
+
+        .container3 {
+            flex-direction: column;
+        }
+
+        .container4 {
+            flex-direction: column-reverse;
+        }
+
+        .item {
+            background-color: magenta;
+            margin: 5px;
+        }
+
+        .container5 .item {
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>flex-direction</h1>
+
+    <section>
+        <h2>row</h2>
+        <div class="container container1">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-4</div>
+            <div class="item">Item-5</div>
+            <div class="item">Item-6</div>
+            <div class="item">Item-7</div>
+            <div class="item">Item-8</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>row-reverse</h2>
+        <div class="container container2">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-4</div>
+            <div class="item">Item-5</div>
+            <div class="item">Item-6</div>
+            <div class="item">Item-7</div>
+            <div class="item">Item-8</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>column</h2>
+        <div class="container container3">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-4</div>
+            <div class="item">Item-5</div>
+            <div class="item">Item-6</div>
+            <div class="item">Item-7</div>
+            <div class="item">Item-8</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>column-reverse</h2>
+        <div class="container container4">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-4</div>
+            <div class="item">Item-5</div>
+            <div class="item">Item-6</div>
+            <div class="item">Item-7</div>
+            <div class="item">Item-8</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Flex items does not overflow the flex container</h2>
+        <div class="container container5">
+            <div class="item">Item-1</div>
+            <div class="item">Item-2</div>
+            <div class="item">Item-3</div>
+            <div class="item">Item-4</div>
+            <div class="item">Item-5</div>
+            <div class="item">Item-6</div>
+            <div class="item">Item-7</div>
+            <div class="item">Item-8</div>
+        </div>
+    </section>
+</body>
+
+</html>
