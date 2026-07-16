@@ -38,3 +38,9 @@
 * Use a period to represent an empty cell.
 * Every row in the template area must have the same number of cells.
 * The named area must form a rectangle.
+
+* grid-auto-flow can change the filling direction of the cells to row or column.
+
+* grid-auto-rows specifies the size of the auto generated row tracks.
+
+* grid-auto-columns specified the size of the auto generated column tracks.
