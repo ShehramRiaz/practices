@@ -44,3 +44,15 @@
 * grid-auto-rows specifies the size of the auto generated row tracks.
 
 * grid-auto-columns specified the size of the auto generated column tracks.
+
+* justify-content can be used to position the whole grid horizontally inside the grid container if the container is larger than the grid.
+* align-content can be used to position the whole grid vertically inside the grid container if the container is larger than the grid.
+* place-content is the shorthand for align-content and justify-content.
+
+* justify-items can be used to position the items inside the cells horizontally.
+* align-items can be used to position the items inside the cells vertically.
+* place-items is the shorthand for align-items and justify-items.
+
+* justify-self can be used on individual grid item to position itself horizontally.
+* align-self can be used on individual grid item to position itself vertically.
+* place-self is the shorthand for align-self and justify-self.
