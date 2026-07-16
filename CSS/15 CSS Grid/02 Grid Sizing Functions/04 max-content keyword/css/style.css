@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    background-color: lightcoral;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 150px minmax(200px, 1fr) max-content 1fr;
+}
+
+.item {
+    background-color: lightskyblue;
+    border: 1px solid;
+    padding: 5px;
+}

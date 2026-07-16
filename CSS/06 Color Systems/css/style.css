@@ -1,0 +1,15 @@
+.para {
+    /* rgb */
+    color: rgb(134, 48, 219);
+
+    /* HEX */
+    background-color: #25c2c2;
+}
+
+.para-alpha {
+    /* rgb with alpha channel */
+    color: rgba(134, 48, 219, .5);
+
+    /* HEX with alpha channel */
+    background-color: #25c2c2cc;
+}

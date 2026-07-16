@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+.parent {
+    font-size: 30px;
+    width: 50vw;
+    height: 50vh;
+    background-color: magenta;
+}
+
+.child {
+    width: 50%;
+    height: 40%;
+    background-color: greenyellow;
+    margin: 5px;
+}
+
+.child1 {
+    font-size: 0.5em;
+}
+
+.child2 {
+    font-size: 0.5rem;
+}

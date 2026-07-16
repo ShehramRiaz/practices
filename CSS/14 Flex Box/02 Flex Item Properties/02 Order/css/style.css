@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    height: 500px;
+    background-color: yellow;
+    border: 2px solid;
+    display: flex;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.item-1 {
+    order: 3;
+}
+
+.item-2 {
+    order: 4;
+}
+
+.item-3 {
+    order: 2;
+}
+
+.item-4 {
+    order: 1;
+}

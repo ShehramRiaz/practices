@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: yellow;
+    border: 2px solid;
+    display: flex;
+}
+
+.container1 {
+    /* Default */
+    justify-content: flex-start;
+}
+
+.container2 {
+    justify-content: flex-end;
+}
+
+.container3 {
+    justify-content: space-between;
+}
+
+.container4 {
+    justify-content: space-around;
+}
+
+.dir-col .container {
+    flex-direction: column;
+    height: 400px;
+}
+
+.container5 {
+    justify-content: space-evenly;
+}
+
+.item {
+    background-color: magenta;
+    margin: 5px;
+}

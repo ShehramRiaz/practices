@@ -4,60 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Grid Alignment Properties</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .container {
-            width: 80%;
-            height: 80vh;
-            background-color: lightcoral;
-            margin: 50px auto;
-            display: grid;
-            grid-template-columns: repeat(3, 300px);
-            grid-template-rows: repeat(3, 150px);
-            /* justify-content: center; */
-            /* align-content: space-between; */
-            place-content: space-between center;
-
-            /* justify-items: center; */
-            /* align-items: center; */
-            place-items: center;
-        }
-
-        .item {
-            width: 80px;
-            height: 80px;
-            background-color: lightskyblue;
-            border: 1px solid;
-            padding: 5px;
-        }
-
-        .item-1 {
-            justify-self: start;
-        }
-
-        .item-2 {
-            align-self: end;
-        }
-
-        .item-3 {
-            place-self: end;
-        }
-
-        .item-7 {
-            place-self: start end;
-        }
-
-        .item-8 {
-            place-self: end start;
-        }
-    </style>
 </head>
 
 <body>

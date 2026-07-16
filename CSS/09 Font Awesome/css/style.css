@@ -1,0 +1,13 @@
+/* We can apply font properties to font icons!! */
+.bag {
+    color: orange;
+}
+
+.bars {
+    font-size: 24px;
+}
+
+.linkedin {
+    background-color: cyan;
+    color: blue;
+}
