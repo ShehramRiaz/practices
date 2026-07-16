@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Content Keyword</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 80%;
+            background-color: lightcoral;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: 150px minmax(200px, 1fr) min-content 1fr;
+        }
+
+        .item {
+            background-color: lightskyblue;
+            border: 1px solid;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item item-1">item-1</div>
+        <div class="item item-2">item-2</div>
+        <div class="item item-3">It is min-content example</div>
+        <div class="item item-4">item-4</div>
+        <div class="item item-5">item-5</div>
+        <div class="item item-6">item-6</div>
+        <div class="item item-7">This is the item 7 of the grid.</div>
+        <div class="item item-8">item-8</div>
+    </div>
+</body>
+
+</html>

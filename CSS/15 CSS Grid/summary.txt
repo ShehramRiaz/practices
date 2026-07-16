@@ -1,0 +1,24 @@
+* CSS Grid can be declared by setting the display to grid.
+* It is a 2D layout system i.e it positions both rows and columns simultaneously.
+
+* We can define the number and sizes of the columns using grid-template-columns.
+* We can define the number and sizes of the rows using grid-template-rows.
+* fr is the unit used in grid layouts which means fraction of the available space.
+
+* Unlike FlexBox the items are in the columns direction and wrap by default when there are more items then the columns.
+
+* We can adjust gap between the the rows and columns by using row-gap and column-gap.
+* gap is the shorthand for row-gap and column-gap i.e gap: <row-gap> <col-gap>;
+
+* Explicit grid is the grid layout in which we manually decide the number of rows and columns.
+* Implicit grid is the grid layout in which we only set either number of rows or columns and the other one is created automatically.
+
+* repeat() can be used to repeat a sequence of row/column values n times. i.e repeat(n, value1 value2 value3 .....)
+
+* minmax(min, max) can be used to restrict the items from being smaller then min and not larger than the max value.
+
+* min-content is the keyword which shrinks the track to the unbreakable size of the word in the track.
+
+* max-content is the keyword which grows the track to the largest sentence in the track.
+
+* fit-content() works the same way as max-content when the text is less than the specified value. But when the text exceeds the specified value the text wraps down to the next line.
