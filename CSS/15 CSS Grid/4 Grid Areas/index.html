@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Areas</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            background-color: yellow;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: 70px 1fr 80px;
+            grid-template-areas:
+                "header header header header ."
+                "sidebar main main main main"
+                "sidebar footer footer footer footer";
+        }
+
+        .header {
+            grid-area: header;
+            background-color: lightcoral;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: lightskyblue;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: lightgreen;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: lightslategrey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">Header</header>
+
+        <main class="main">Main</main>
+
+        <aside class="sidebar">Sidebar</aside>
+
+        <footer class="footer">Footer</footer>
+    </div>
+</body>
+
+</html>

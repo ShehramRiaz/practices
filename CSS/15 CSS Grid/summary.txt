@@ -27,3 +27,14 @@
 * It specifies the starting line and the ending line number or specifies the number of rows/columns to span using span keyword.
 
 * grid-area can also be used to specify both grid-column and grid-row in the format row-stat / col-start / row-end / col-end.
+
+* Grid Template Areas can be used to place items by using readable names instead of line numbers.
+* grid-area then uses that string name to pace items to its position.
+* Each string in grid-template-column represents a row.
+* Each word inside the string represent a grid cell.
+* The strings are separated by space.
+* Each word in the string are also separated by a space.
+* The grid-area in the items use that string without enclosing in the quotes.
+* Use a period to represent an empty cell.
+* Every row in the template area must have the same number of cells.
+* The named area must form a rectangle.
