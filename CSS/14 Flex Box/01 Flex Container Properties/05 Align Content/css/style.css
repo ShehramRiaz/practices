@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 200px;
+    background-color: yellow;
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    /* Default */
+    align-content: flex-start;
+}
+
+.container2 {
+    align-content: flex-end;
+}
+
+.container3 {
+    align-content: space-between;
+}
+
+.container4 {
+    align-content: space-around;
+}
+
+.container5 {
+    align-content: space-evenly;
+}
+
+.dir-col .container {
+    flex-direction: column;
+}
+
+.item {
+    width: 400px;
+    height: 40px;
+    background-color: magenta;
+    margin: 5px;
+}

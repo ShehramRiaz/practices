@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    margin: 40px;
+}
+
+#box-3 {
+    margin: 60px;
+}
