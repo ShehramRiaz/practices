@@ -4,6 +4,7 @@
 * We can define the number and sizes of the columns using grid-template-columns.
 * We can define the number and sizes of the rows using grid-template-rows.
 * fr is the unit used in grid layouts which means fraction of the available space.
+* grid-template is the shorthand for <grid-template-rows> <grid-template-columns>
 
 * Unlike FlexBox the items are in the columns direction and wrap by default when there are more items then the columns.
 
