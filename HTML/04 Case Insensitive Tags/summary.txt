@@ -1,0 +1,4 @@
+* HTML tags are case-insensitive.
+* We can even use mixed case tag names like <DiV>
+* The tag names are automatically converted to small case letters in "inspect" of the browser.
+* View source code has exactly the same code as written in the file.

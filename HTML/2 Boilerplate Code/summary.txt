@@ -1,4 +1,0 @@
-* <!DOCTYPE html> - Tells the browser that we are using HTML5 version.
-* <html>...</html> - This is the root element of the document.
-* <head>...</head> - Contains machine readable data such as Website title, author and description etc. Which is used by search engines like Google and Bing.
-* <body>...</body> - Contains the content to be displayed on the webpage.

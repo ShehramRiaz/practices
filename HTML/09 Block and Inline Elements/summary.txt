@@ -1,0 +1,7 @@
+* Block elements are those that takes full width of the screen.
+* The size of these elements can be set easily through CSS.
+* Examples are p, h1....h6, header, main, footer, aside, article, nav.
+
+* Inline elements are those that takes as much width as it's content.
+* The size of these elements cannot be easily modified.
+* Examples are span, a, i, u, b, s, sup, sub.

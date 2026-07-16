@@ -1,0 +1,5 @@
+* div and span are used only for styling purposes.
+* These are not semantic elements and does not provide meaning to it's content.
+* Div is a block element and is generally used for grouping multiple elements.
+* Span is an inline element and is used for wrapping a small portion of text for styling purposes.
+* This styling can be done using html class attribute which can be targeted using CSS.

@@ -1,3 +1,0 @@
-* Character Entity Reference is a way of displaying special or reserved characters as it is on the webpage.
-* It start with ampersand (&) and ends with a semicolon (;)
-* For example to print the characters like (<, >, &) or special symbols not available in the keyboard, we use Character Entity Reference.

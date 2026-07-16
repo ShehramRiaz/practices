@@ -1,0 +1,9 @@
+* Heading tags are used to define headings in a webpage.
+* There are 6 heading levels in HTML from h1 through h6.
+* Never use heading elements just for sizing needs.
+* Use appropriate level of heading for importance and the depth of the sub-heading.
+
+* Paragraph tag by default adds some spacing to the top and bottom of the text.
+* Browsers ignore multiple spaces and line breaks by default.
+* To add line break in texts, we use <br> tag.
+* <br> is a void tag which means it has no closing tag because it has not content and is just used for line breaks.

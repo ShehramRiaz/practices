@@ -1,0 +1,4 @@
+* ol is used for ordered list while ul is used for unordered list.
+* We can next lists inside other.
+* The nested list has by default an indentation.
+* We can change the type of list style using type attribute.

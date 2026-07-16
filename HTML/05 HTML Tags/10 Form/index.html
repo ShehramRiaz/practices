@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label for="age">Age: </label>
+                <input type="number" name="age" id="age">
+            </div>
+
+            <fieldset>
+                <legend>Gender</legend>
+
+                <input type="radio" name="gender" id="male" value="male" required>
+                <label for="male">Male</label>
+
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="female">Female</label>
+
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+        </fieldset>
+
+        <fieldset>
+            <legend>Technologies you know</legend>
+
+            <div>
+                <label for="c">C</label>
+                <input type="checkbox" name="tech[]" value="c" id="c">
+            </div>
+
+            <div>
+                <label for="cpp">C++</label>
+                <input type="checkbox" name="tech[]" value="cpp" id="cpp">
+            </div>
+
+            <div>
+                <label for="java">Java</label>
+                <input type="checkbox" name="tech[]" value="java" id="java">
+            </div>
+
+            <div>
+                <label for="html">HTML</label>
+                <input type="checkbox" name="tech[]" value="html" id="html">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Salary Expectation</legend>
+
+            <select name="salary">
+                <option value="" disabled selected>Select Salary</option>
+                <option value="1000-1500">$1000 - $1500</option>
+                <option value="1500-2500">$1500 - $2500</option>
+                <option value="2500-3500">$2500 - $3500</option>
+            </select>
+        </fieldset>
+
+        <div>
+            <label for="comment">Comment</label> <br>
+            <textarea name="comment" id="comment" placeholder="Add some comments" rows="8" cols="70"></textarea>
+        </div>
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>

@@ -1,5 +1,0 @@
-* Comments are used to explain the code for future self or for other developers.
-* It is not displayed on the webpage but it can be seen by "view source code" option of the browsers.
-* Syntax: <!-- Comment -->
-* The syntax for both single and multi-line comments are the same in HTML.
-* Nested comments are not allowed in HTML.
