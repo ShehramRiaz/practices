@@ -56,3 +56,7 @@
 * justify-self can be used on individual grid item to position itself horizontally.
 * align-self can be used on individual grid item to position itself vertically.
 * place-self is the shorthand for align-self and justify-self.
+
+* auto-fill and auto-fill keywords can be used in repeat function as th first argument.
+* These two keywords creates as many column that can be fit inside the container.
+* The only difference is that when there are not enough items in the container, using auto-fill will still create empty column while the auto-fit will grow the items to fill the empty spaces.
