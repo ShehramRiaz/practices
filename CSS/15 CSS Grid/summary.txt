@@ -22,3 +22,8 @@
 * max-content is the keyword which grows the track to the largest sentence in the track.
 
 * fit-content() works the same way as max-content when the text is less than the specified value. But when the text exceeds the specified value the text wraps down to the next line.
+
+* grid-column and grid-row can be used to specify the starting and ending grid line of a grid item.
+* It specifies the starting line and the ending line number or specifies the number of rows/columns to span using span keyword.
+
+* grid-area can also be used to specify both grid-column and grid-row in the format row-stat / col-start / row-end / col-end.
