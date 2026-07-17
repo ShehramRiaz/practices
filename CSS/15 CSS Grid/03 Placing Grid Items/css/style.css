@@ -10,7 +10,10 @@
     background-color: lightcoral;
     margin: 50px auto;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
+
+    /* Named grid lines */
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [fourth] 1fr;
 }
 
 .item {
@@ -35,6 +38,11 @@
 
 .item-3 {
     grid-area: 2 / 2 / span 2 / span 2;
+}
+
+.item-4 {
+    grid-row: 5 /6;
+    grid-column: first / second;
 }
 
 .item-7 {
