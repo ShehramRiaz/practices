@@ -1,0 +1,44 @@
+input:checked {
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    background-color: lightgreen;
+}
+
+:disabled {
+    cursor: not-allowed;
+}
+
+:enabled {
+    cursor: pointer;
+}
+
+:required ~ .star::after {
+    content: "*";
+    color: red;
+}
+
+:optional {
+    background-color: gold;
+}
+
+.email:valid {
+    border: 1px solid green;
+    outline: 1px solid green;
+}
+
+.email:invalid {
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+
+.age:in-range {
+    border: 1px solid hotpink;
+    outline: 1px solid hotpink;
+}
+
+.age:out-of-range {
+    border: 1px solid red;
+    outline: 1px solid red;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Pseudo Classes</title>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Full Name</legend>
+
+            <input type="text" placeholder="Enter name" required>
+            <span class="star"></span>
+        </fieldset>
+
+        <fieldset>
+            <legend>Age</legend>
+            <input class="age" type="number" placeholder="Enter age" required min="18" max="30">
+            <span class="star"></span>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Email</legend>
+            <input class="email" type="email" placeholder="Enter email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Gender</legend>
+
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+
+            <input type="radio" name="gender" value="other" id="other">
+            <label for="other">Other</label>
+        </fieldset>
+
+        <fieldset disabled>
+            <legend>Application Type</legend>
+            <select name="application-type">
+                <option>Option 1</option>
+                <option>Option 2</option>
+                <option>Option 3</option>
+                <option>Option 4</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
