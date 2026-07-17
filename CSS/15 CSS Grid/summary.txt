@@ -64,3 +64,6 @@
 * The only difference is that when there are not enough items in the container, using auto-fill will still create empty column while the auto-fit will grow the items to fill the empty spaces.
 
 * Order property can also be used in grid to change the order of the elements.
+
+* We can also set the z-index property on grid items to specify which item should appear at the top of another item when items are overlapped.
+* We can use z-index irrespective of the value of the position property.
