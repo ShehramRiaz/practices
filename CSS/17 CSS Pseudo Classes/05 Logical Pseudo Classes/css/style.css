@@ -1,0 +1,40 @@
+.message {
+    padding: 20px;
+}
+
+.message.error {
+    background-color: red;
+    color: white;
+}
+
+.message.success {
+    background-color: green;
+    color: white;
+}
+
+.message:not(.active) {
+    display: none;
+}
+
+/* article:hover div:first-child p,
+article:hover h2,
+article:hover a {
+    color: magenta;
+} */
+
+article:hover :is(div:first-child p, h2, a) {
+    color: magenta;
+}
+
+/* Does not add specificity of the elements inside where() */
+article:hover :where(div:first-child p, h2, a) {
+    color: magenta;
+}
+
+article:has(img) {
+    background-color: lightseagreen;
+}
+
+article:has(section:hover) {
+    background-color: lightsalmon;
+}
