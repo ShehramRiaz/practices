@@ -1,0 +1,16 @@
+a:any-link {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a:visited {
+    color: hotpink;
+    text-decoration: none;
+}
+
+a:link {
+    color: lightseagreen;
+}
