@@ -1,0 +1,4 @@
+* Media Queries can be used to change the CSS properties of different elements for different screen sizes.
+* We can specify a condition of the width of the screen and apply stylings for that screen size.
+* It help us make responsive webpages easily.
+* We can also combine multiple conditions using "or" and "and" keywords.
