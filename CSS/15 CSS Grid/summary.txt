@@ -4,6 +4,7 @@
 * We can define the number and sizes of the columns using grid-template-columns.
 * We can define the number and sizes of the rows using grid-template-rows.
 * fr is the unit used in grid layouts which means fraction of the available space.
+* We can also give meaningful names to the row/col lines by preceding the col/row size by a word enclosed in square brackets.
 * grid-template is the shorthand for <grid-template-rows> <grid-template-columns>
 
 * Unlike FlexBox the items are in the columns direction and wrap by default when there are more items then the columns.
@@ -61,3 +62,5 @@
 * auto-fill and auto-fill keywords can be used in repeat function as th first argument.
 * These two keywords creates as many column that can be fit inside the container.
 * The only difference is that when there are not enough items in the container, using auto-fill will still create empty column while the auto-fit will grow the items to fill the empty spaces.
+
+* Order property can also be used in grid to change the order of the elements.
