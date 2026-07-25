@@ -1,0 +1,5 @@
+* In any programming languages, operators can be used to perform an action on it's values called the operands.
+
+* Arithmetic operators: +, -, *, /, %, **
+* The % operator gives the reminder of two values.
+* The  ** operator is the exponentiation operator.
