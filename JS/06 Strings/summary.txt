@@ -1,0 +1,5 @@
+* Strings in JavaScript are the sequence of characters enclosed in single quote, double quote or backticks.
+* String is actually a JavaScript Object with built-in properties and methods.
+* One of the properties of String is the length property which gives the number of characters in the string.
+* Each character in string is assigned a position number called the index number which starts from 0.
+* We can access a specific character by it's position number just in the way we access Object properties.
