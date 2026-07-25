@@ -1,0 +1,23 @@
+* Javascript is a programming language that can be used to make webpages interactive, validate forms, create animations, change HTML and CSS dynamically without refreshing whole webpage.
+
+* It was created by Brendan Eich in 1995.
+
+* Originally it was created just to make the webpages interactive but today it can also be used as the backend language. It can also be used to create desktop applications, mobile applications, browser extensions and more.
+
+* Mocha was the first name of the Javascript and later on it was renamed to LiveScript and then finally renamed to Javascript.
+
+* Javascript and Java are completely different programming languages. The Javascript is just used for marketing purposes because Java programming language was very popular at that time.
+
+* Javascript is a dynamically typed language which means the type of data is automatically determined at runtime.
+
+* DOM stands for Document Object Modal. The browser stores the HTML in a tree like structure called the DOM.
+
+* Javascript does not directly modify the HTML, instead, it updates the DOM and browser reads that DOM to update the webpage.
+
+* Javascript is an interpreted language with Just In Time (JIT) compilation.
+
+* JIT means the frequently used code called "hot code" is compiled to highly optimized machine code during execution of code.
+
+* Javascript can be included in webpages by using the HTML script tag usually placed just before the closing tag of the body.
+
+* Javascript can also be written in browser console for debugging.
