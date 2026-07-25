@@ -9,5 +9,5 @@
 * Post increment/decrement first return the value then increase/decreases value by 1.
 * Pre increment/decrement first increase/decreases value by 1 then return the value.
 
-* Assignment Operators: ==, !=, ===, !==, <, >, <=, >=
+* Comparison Operators: ==, !=, ===, !==, <, >, <=, >=
 * They return a boolean value.
