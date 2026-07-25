@@ -6,3 +6,7 @@
 
 * Template literal is a way of writing strings with embedded expressions using placeholders in string instead of concatenating multiple strings.
 * Template literals are declared by using backticks.
+
+* Escape sequence allow us to print special characters inside strings.
+* Escape sequence character starts with back-slash along with the character to be printed.
+* Although, the escape character consist of two characters, but in strings it is treated as a single character.
