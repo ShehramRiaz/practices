@@ -3,3 +3,6 @@
 * For Loop combines these all three condition in one block.
 * While Loop is same as the for loop but with different syntax.
 * While Loop initialization statement is outside the loop, updation statement inside the loop body and condition in the round braces.
+* For Loop and While Loop first check the condition and then if the condition is true, the loop body executes.
+* On the other hand, do while loop first executes the body and then at the last check the condition.
+* So, Even if the condition is false, the loop body of do while executes once.
