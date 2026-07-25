@@ -11,3 +11,8 @@
 
 * Comparison Operators: ==, !=, ===, !==, <, >, <=, >=
 * They return a boolean value.
+
+* Logical Operators: &&, ||, !
+* The logical AND (&&) operator requires both of it's operands to be true to return true.
+* The logical OR (||) operator requires at least one of it's operand to be true to return true.
+* The logical NOT(!) operand negates (toggle) the boolean value.
