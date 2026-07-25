@@ -37,6 +37,7 @@ practices/
 
 * HTML
 * CSS
+* JavaScript
 
 ### 🚧 Planned
 
