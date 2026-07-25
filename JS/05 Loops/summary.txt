@@ -1,3 +1,5 @@
 * Loops can be used to run a block of code repeatedly until the stopping condition is met.
 * Loops consist of three parts: initialization, stopping condition, updation.
 * For Loop combines these all three condition in one block.
+* While Loop is same as the for loop but with different syntax.
+* While Loop initialization statement is outside the loop, updation statement inside the loop body and condition in the round braces.
