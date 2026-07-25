@@ -3,3 +3,8 @@
 * Arithmetic operators: +, -, *, /, %, **
 * The % operator gives the reminder of two values.
 * The  ** operator is the exponentiation operator.
+
+* Assignment Operators: =, +=, -=, *=, /=, %=, **=, ++, --
+* The ++ and -- are unary operators which can be used as either post increment/decrement or pre increment/decrement.
+* Post increment/decrement first return the value then increase/decreases value by 1.
+* Pre increment/decrement first increase/decreases value by 1 then return the value.
