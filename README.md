@@ -23,7 +23,7 @@ practices/
 │
 ├── HTML/
 ├── CSS/
-├── JavaScript/        (Coming Soon)
+├── JavaScript/
 ├── React/             (Coming Soon)
 ├── Node.js/           (Coming Soon)
 ├── Express.js/        (Coming Soon)
