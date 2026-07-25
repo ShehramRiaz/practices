@@ -6,7 +6,7 @@
 
 * Mocha was the first name of the Javascript and later on it was renamed to LiveScript and then finally renamed to Javascript.
 
-* Javascript and Java are completely different programming languages. The Javascript is just used for marketing purposes because Java programming language was very popular at that time.
+* Javascript and Java are completely different programming languages. The Javascript name was just used for marketing purposes because Java programming language was very popular at that time.
 
 * Javascript is a dynamically typed language which means the type of data is automatically determined at runtime.
 

@@ -20,7 +20,7 @@
 
 * Variable names are case-sensitive i.e name and NAME are different variables.
 * Name of the variable should be meaningful.
-* Only letters, digits, underscore and $ are allowed in variable names.
+* Only letters, digits, underscore and $ are allowed as variable names.
 * First character cannot be a digit.
 * Reserved words such as console cannot be used as variable names.
 
