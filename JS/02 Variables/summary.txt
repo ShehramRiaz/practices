@@ -1,0 +1,42 @@
+* Variables are containers for storing different types of value such as number and strings.
+* Later on, we can use the variable name to use it's value in the code.
+
+* Datatypes represent the type of data being used.
+* Datatypes can be categorize into primitive and non-primitive datatypes.
+* There are 7 primitive datatypes.
+- number: Represent integers and floats.
+- string: Represent textual data.
+- boolean: Represent one of two states true or false.
+- null: Represent absence of value.
+- undefined: Represent unknown value.
+- BigInt: Represent Extremely large value.
+- Symbol: Creates a unique value in current runtime.
+
+* Non-Primitive Datatype
+- Object: Collection of different types of data packed together.
+
+* We can check the type of a value by using typeof operator.
+* Javascript has a historical bug of interpreting null as object and is kept only for compatibility.
+
+* Variable names are case-sensitive i.e name and NAME are different variables.
+* Name of the variable should be meaningful.
+* Only letters, digits, underscore and $ are allowed in variable names.
+* First character cannot be a digit.
+* Reserved words such as console cannot be used as variable names.
+
+* There are different Case naming conventions used for multi-word variable names such as camelCase, PascalCase, snake_case and kebab-case.
+* camelCase is usually more used for variable names.
+* kebab-case is not allowed in Javascript as it includes special character (-).
+
+* We should define variables by preceding variable name by let, const or var keyword.
+* var should be avoided in modern applications because it is the older way of defining variables and can cause problems as the project grows.
+
+* let and const should be used in modern applications.
+
+* let and const create block scope variables whereas var create a function/global scope variable.
+* Variable defined using let cannot be re-declared but can be updated.
+* Variable defined using const can neither be re-declared nor updated.
+* Variable defined using var can either be re-declared and updated.
+* That's why var keyword is ignored in modern Javascript.
+
+* Also var and let can be declared without initializing it but const must be initialized during declaration.
