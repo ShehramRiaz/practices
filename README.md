@@ -43,7 +43,6 @@ practices/
 
 As I continue learning, this repository will gradually include practice work for:
 
-* JavaScript
 * TypeScript
 * React
 * Node.js
