@@ -6,3 +6,9 @@
 * For Loop and While Loop first check the condition and then if the condition is true, the loop body executes.
 * On the other hand, do while loop first executes the body and then at the last check the condition.
 * So, Even if the condition is false, the loop body of do while executes once.
+
+For Of and For In are a special types of loops that do not require any initialization, condition or updation. They Just Iterate on some specific types of values.
+
+* for of loop is iterated on each string character, or array values where in each iteration the character/value is stored in the variable called the iterator defined inside the parenthesis of loop.
+
+* for in loop is iterated on each key of an object where in each iteration, the key is stored in the variable called the iterator defined inside the parenthesis of loop.
