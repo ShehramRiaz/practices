@@ -38,6 +38,8 @@ practices/
 * HTML
 * CSS
 * JavaScript
+* Git
+* Github
 
 ### 🚧 Planned
 
