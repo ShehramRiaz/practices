@@ -1,0 +1,2 @@
+* if-else statements can be used to execute a block of code when the given condition is matched.
+* We can chain as many else-if after if as we want and then place an optional else statement which executes only when no condition is met.
