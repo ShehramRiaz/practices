@@ -3,3 +3,6 @@
 * One of the properties of String is the length property which gives the number of characters in the string.
 * Each character in string is assigned a position number called the index number which starts from 0.
 * We can access a specific character by it's position number just in the way we access Object properties.
+
+* Template literal is a way of writing strings with embedded expressions using placeholders in string instead of concatenating multiple strings.
+* Template literals are declared by using backticks.
