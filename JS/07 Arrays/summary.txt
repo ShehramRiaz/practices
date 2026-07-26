@@ -6,3 +6,13 @@
 * We can have different types of values in a single Array.
 
 * We can Loop over array elements by using loops and perform some action on each array elements.
+
+* There are some methods used with arrays in Javascript:
+- push(): Adds one or more elements to the end of the array and return the new length of the array.
+- pop(): Removes the last element of the array and return that element.
+- toString(): Converts Array values to comma separated string.
+- concat(): Combine multiple arrays to single array.
+- shift(): Removes the first element of the array and return that element.
+- unshift(): Adds one or more elements to the start of the array and return the new length of the array.
+- slice(): Return a sub array of an array by specifying starting and exclusive ending index.
+- splice(): Changes the original array, It remove and add elements simultaneously from the given index.
