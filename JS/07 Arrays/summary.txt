@@ -1,0 +1,6 @@
+* Array is a collection of items where each item is stored at a position number called the index.
+* Unlike Strings, Arrays are mutable.
+* We an access the number of items by the length property of Arrays.
+* We can access item at specific position by using bracket notation.
+* We can also modify an item at a specific position by using bracket notation.
+* We can have different types of values in a single Array.
