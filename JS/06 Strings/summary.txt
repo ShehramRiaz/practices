@@ -10,3 +10,15 @@
 * Escape sequence allow us to print special characters inside strings.
 * Escape sequence character starts with back-slash along with the character to be printed.
 * Although, the escape character consist of two characters, but in strings it is treated as a single character.
+
+* In JavaScript, Strings are immutable i.e We cannot change or modify the original string.
+* There are some methods related to strings in JavaScript.
+
+- toUpperCase(): Converts all characters in a string to uppercase letters.
+- toLowerCase(): Converts all characters in a string to lowercase letters.
+- trim(): Remove the starting and ending spaces from the string.
+- slice(): Returns a substring of a string by specifying starting and ending index where the ending index in exclusive.
+- concat(): Concatenate one string with another string. Alternatively, we can use the + operator.
+- replace(): Replace the first occurrence of substring with another substring.
+- replaceAll(): Replace all occurrences of a substring with another substring.
+- charAt(): Returns the character in the specified index of a string. Alternatively, we can use square bracket method.
