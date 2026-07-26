@@ -4,3 +4,5 @@
 * We can access item at specific position by using bracket notation.
 * We can also modify an item at a specific position by using bracket notation.
 * We can have different types of values in a single Array.
+
+* We can Loop over array elements by using loops and perform some action on each array elements.
