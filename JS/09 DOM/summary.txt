@@ -11,3 +11,9 @@
 - getElementsByTagName(): Returns array like structure called HTMLCollection having all element of the specified element.
 - querySelector(): Returns the first occurrence of the given CSS selector.
 - querySelectorAll(): Returns array like structure called NodeList containing all elements of the given matching CSS selector.
+
+* Text Properties of elements can be used to get or set the text or even entire HTML of an element.
+- innerHTML can be used to get or set the HTML elements and text inside an element.
+- outerHTML can be used to get or set the HTML elements and text inside an element including the element itself.
+- innerText can be used to get or set the visible text of the element.
+- textContent can be used to get or set the entire text in an element either visible or not.
