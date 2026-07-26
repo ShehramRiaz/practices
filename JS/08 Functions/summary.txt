@@ -15,3 +15,7 @@
 * We can omit round braces when there is only one parameter.
 * We can also omit curly braces when there is one statement in function.
 * When we omit curly braces, the statement's value is returned from the function without using return keyword.
+
+* Higher Order functions are those functions in Javascript that take a function either as a parameter or return a function.
+
+* The functions that is passed to another function as argument is called callback function.
