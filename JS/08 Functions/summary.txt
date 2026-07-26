@@ -4,5 +4,6 @@
 * It can also take parameters to accept input from outside.
 * The parameter variables are defined inside the parenthesis of the function definition.
 * These parameters are initialized when the function is called with arguments passed in parenthesis.
+* The scope of the parameters in functions are block scoped.
 * Functions can also return values to the place where the function was called using return keyword.
 * The code written after return keyword in a function never runs.
