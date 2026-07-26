@@ -7,3 +7,11 @@
 * The scope of the parameters in functions are block scoped.
 * Functions can also return values to the place where the function was called using return keyword.
 * The code written after return keyword in a function never runs.
+
+* Arrow functions are the compact way to write functions.
+* The are anonymous functions assigned to variables.
+* We can use that variable name to call the arrow function.
+* Function declarations can be called before function definition while arrow function cannot be called before definition.
+* We can omit round braces when there is only one parameter.
+* We can also omit curly braces when there is one statement in function.
+* When we omit curly braces, the statement's value is returned from the function without using return keyword.
