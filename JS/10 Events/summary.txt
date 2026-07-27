@@ -10,3 +10,8 @@
 - node.event is assigned a function that executes when the event happens.
 - If one node is assigned multiple handlers, the last handler overrides the previous one.
 - An object called event object is passed to the handler by default which has all the information about the event.
+
+* addEventListener() can be used to attach handler to events.
+* It can attach multiple handlers to the same element of same event.
+* removeEventListener() can be used to remove an event form an element.
+* removeEventListener() takes the event name and the handler reference to remove an event handler from that element.
