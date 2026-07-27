@@ -34,3 +34,21 @@
 
 - contains(): Returns Boolean value based on if a Node is present in another Node.
 - closest(): Returns the nearest ancestor matching the specified CSS selector.
+
+* Creating Elements`
+- createElement() methods can be used to create elements.
+
+* Inserting Elements
+- append() is used to insert one or multiple elements or strings at the end of the element.
+- prepend() is used to insert one or multiple elements or strings at the start of the element.
+- before() is used to insert one or multiple elements or strings before opening tag of an existing element.
+- after() is used to insert one or multiple elements or strings after opening tag of an existing element.
+
+- insertAdjacentHTML() can be used as append, prepend, before and after by specifying insert position. It adds raw HTML string just like innerHTML.
+
+* Removing Elements.
+- remove() is used to remove an element from the DOM.
+
+* Replacing Elements
+- replaceWith() is used to replace an existing element with another element.
+- replaceChildren() is used to replace all elements inside an element with another.
