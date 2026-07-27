@@ -5,3 +5,8 @@
 * We can handle events in three ways
 * Inline event handling
 - Event attributes are set to some Javascript code on an element.
+
+* Event Handling Using DOM Properties
+- node.event is assigned a function that executes when the event happens.
+- If one node is assigned multiple handlers, the last handler overrides the previous one.
+- An object called event object is passed to the handler by default which has all the information about the event.
