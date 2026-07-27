@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle-mode-btn {
+    font-size: 1rem;
+    padding: 1em;
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: .3em;
+    box-shadow: 4px 5px 10px grey;
+    cursor: pointer;
+}
+
+.toggle-mode-btn:hover {
+    background-color: rgb(3, 102, 201)
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.dark .toggle-mode-btn {
+    background-color: rgb(2, 41, 80);
+    box-shadow: none;
+}
