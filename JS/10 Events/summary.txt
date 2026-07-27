@@ -1,0 +1,7 @@
+* Events are the actions that happen in browser and the browser signals Javascript engine to execute the function or code attached to that event.
+
+* When we provide a Javascript code for a specific event, that is called event handling and the code used for that event is called the handler.
+
+* We can handle events in three ways
+* Inline event handling
+- Event attributes are set to some Javascript code on an element.
