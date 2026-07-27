@@ -17,3 +17,20 @@
 - outerHTML can be used to get or set the HTML elements and text inside an element including the element itself.
 - innerText can be used to get or set the visible text of the element.
 - textContent can be used to get or set the entire text in an element either visible or not.
+
+* DOM Navigation
+- children: children property return HTMLCollection of all HTML elements inside an element.
+- childNodes: childNodes property returns NodeList of all Nodes inside an element including text, comment and element nodes.
+- firstElementChild: Returns the first element of an element.
+- firstChild: Returns the first Node of an element.
+- lastElementChild: Returns the last element of an element.
+- lastChild: Returns the last Node of an element.
+- parentElement: Returns the parent element of an element.
+- parentNode: Returns the parent Node of an element.
+- nextElementSibling: Returns the next element of an element sharing the same parent.
+- nextSibling: Returns the next Node of an element sharing the same parent.
+- previousElementSibling: Returns the previous element of an element sharing the same parent.
+
+
+- contains(): Returns Boolean value based on if a Node is present in another Node.
+- closest(): Returns the nearest ancestor matching the specified CSS selector.
