@@ -9,3 +9,13 @@
 - Classes are the templates or blueprints for creating Objects efficiently.
 
 * new keyword can be used to instantiate Object from Classes.
+
+* Constructor is a special method defined in class which is called automatically by the new keyword when an object of that class is instantiated.
+
+* Constructor method is created like any other method but the name of the function is always the keyword constructor.
+
+* It is used to initialize the object.
+
+* It can accept arguments to initialize the object.
+
+* Arguments are passed to constructor during object creation.
