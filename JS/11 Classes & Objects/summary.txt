@@ -1,0 +1,5 @@
+* Objects are Javascript entities which has some states (properties) and behaviour (methods).
+* this keyword in Javascript refers to the object in which it is used.
+* Prototypes are objects from which another objects inherit properties and methods.
+* We can get and set Prototypes of an object through getPrototypeOf() and setPrototypeOf() methods.
+* When a method is called, Javascript first checks the method inside the object. If method is found in Object it execute that method. Otherwise, it checks for the method in the prototype and then in another prototype and so on.
