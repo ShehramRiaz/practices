@@ -3,3 +3,9 @@
 * Prototypes are objects from which another objects inherit properties and methods.
 * We can get and set Prototypes of an object through getPrototypeOf() and setPrototypeOf() methods.
 * When a method is called, Javascript first checks the method inside the object. If method is found in Object it execute that method. Otherwise, it checks for the method in the prototype and then in another prototype and so on.
+
+* We can create Objects in two ways:
+- Object Literals: The Classical Method by writing properties and methods manually inside curly braces.
+- Classes are the templates or blueprints for creating Objects efficiently.
+
+* new keyword can be used to instantiate Object from Classes.
