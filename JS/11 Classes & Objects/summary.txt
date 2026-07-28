@@ -19,3 +19,10 @@
 * It can accept arguments to initialize the object.
 
 * Arguments are passed to constructor during object creation.
+
+* Programming in this way is called Object Oriented Programming (OOP).
+* Inheritance is the feature of OOPS that allow us to create classes that inherits properties and methods from another existing classes without rewriting the same code again.
+* It is achieved by using extends keyword.
+* The class that inherits properties is called Child or Derived Class whereas the class from which the child class is inherited is called Parent or Base Class.
+* If the derived class has it's own constructor then it must first call the parent constructor by using super() before using this keyword. Otherwise, Error will be thrown.
+* If Parent and Child Class have same methods, the child method is called. This is called method overriding.
