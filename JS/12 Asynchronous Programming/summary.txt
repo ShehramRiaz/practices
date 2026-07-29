@@ -15,3 +15,14 @@
 * The Callback is a function passed to other function. So When the Asynchronous result is calculated, the Callback runs.
 * Callback has a problem called Callback Hell.
 * The nested Callbacks form a pyramid like structure in the code which is hard to read and understand. That pyramid problem is called Callback Hell or Sometimes called Pyramid of Doom.
+
+- Promises:
+* Promise in Javascript is slightly more good and readable way of handling result of Asynchronous Operations.
+* The promise can have one of three states pending, fulfilled, rejected.
+* We can fulfill promise by using resolve callback function provided by the promise Class.
+* We can reject promise by using reject callback function provided by the promise Class.
+* If promise is neither rejected nor fulfilled, the promise state would be pending.
+* Javascript provides two functions to handle the result of promise.
+* then() method is called when the promise is fulfilled and it receives the resolved value as it's argument.
+* catch() method is called when the promise is rejected and it receives the rejected value as it's argument.
+* We can chain the then functions one after another.
