@@ -26,3 +26,10 @@
 * then() method is called when the promise is fulfilled and it receives the resolved value as it's argument.
 * catch() method is called when the promise is rejected and it receives the rejected value as it's argument.
 * We can chain the then functions one after another.
+
+- async await:
+* async await are keywords which significantly simplifies the way we handle the result of Asynchronous Operations.
+* async keyword enable a function to use the keyword await and automatically return a promise.
+* await keyword is used inside the async functions which stops the execution of the code after it.
+* The only drawback of using async await is that it requires a separate async function to use the keyword await.
+* IIFE Immediately Invoked Function Expressions solves this problem by allowing us to create anonymous functions that is executed at the place it was created.
