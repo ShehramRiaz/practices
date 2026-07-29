@@ -1,0 +1,7 @@
+* Based on the execution sequence, there are two types of Programming.
+- Synchronous Programming: The style of programming in which the statements are executed one after another.
+
+- Asynchronous Programming: The style of programming in which some statements execute in parallel with another statements.
+
+* In programming, some statements or block of code may take some time to execute. So they are executed in parallel with other statements.
+
