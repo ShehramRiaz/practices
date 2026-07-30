@@ -1,0 +1,2 @@
+* LocalStorage is a browser API, that is used to store data in the form of string.
+* The data persist even after the page is refreshed or the browser is closed.
