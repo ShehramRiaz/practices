@@ -71,3 +71,15 @@ engineer.sleep();
 
 Object.setPrototypeOf(programmer, human);
 programmer.sleep();
+
+const product = {
+    company: "adidas",
+    name: "T-shirt",
+    price: 4000,
+}
+
+console.log(product);
+
+setTimeout(() => {
+    delete product.company;
+}, 2000);
