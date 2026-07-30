@@ -26,3 +26,8 @@
 * The class that inherits properties is called Child or Derived Class whereas the class from which the child class is inherited is called Parent or Base Class.
 * If the derived class has it's own constructor then it must first call the parent constructor by using super() before using this keyword. Otherwise, Error will be thrown.
 * If Parent and Child Class have same methods, the child method is called. This is called method overriding.
+
+* In Javascript, Objects are stored by reference not stored by value.
+* When an existing object is assigned to another variable, it's reference is copied to that variable not the object itself.
+* Any change to one variable will affect the other variable having the same object reference stored.
+* Similarly Objects are passed by reference in functions as argument and any modification by the function on the object reference is reflected in the original Object.
