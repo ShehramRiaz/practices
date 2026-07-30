@@ -1,0 +1,7 @@
+* Auto-Boxing is a Javascript feature in which a primitive datatype is temporary converted to object when a property is accessed or a method is called on that primitive type.
+
+* For Example when a method like toUpperCase() is called on a string, the Javascript internally convert the primitive string type to object of String class, then the method is called on that Object and the result is returned while the newly created temp object is discarded automatically.
+
+* Also, If we add a new property to string, that property is only added to the temporary object which is discarded immediately. So accessing that property later in the code will return undefined.
+
+* Same concept apply for all primitive types excluding null and undefined which is not converted to Objects.
