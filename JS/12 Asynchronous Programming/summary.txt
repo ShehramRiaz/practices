@@ -33,3 +33,9 @@
 * await keyword is used inside the async functions which stops the execution of the code after it.
 * The only drawback of using async await is that it requires a separate async function to use the keyword await.
 * IIFE Immediately Invoked Function Expressions solves this problem by allowing us to create anonymous functions that is executed at the place it was created.
+
+* fetch is a browser API that is used for HTTPS request and HTTP responses.
+* It takes the url of the other apis and return a promise.
+* The second argument is the optional options/configuration object which is used to customize the headers.
+* The data returned form the server is usually in json string format.
+* We have to convert the json string into usable format like Javascript Object.
