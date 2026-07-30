@@ -1,0 +1,8 @@
+* JSON stands for Javascript Object Notation.
+* It is similar to Javascript Object but not same.
+* The only different between Javascript Object and JSON is that the keys in JSON are also wrapped in double quotes along with the values.
+* Only double quotes are allowed in JSON.
+
+* Javascript Object is a data structure while the JSON is the format of data.
+* JSON is mostly used in internet requests and responses.
+* It is used to send and receive data over the network.
