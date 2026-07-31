@@ -31,3 +31,10 @@
 * When an existing object is assigned to another variable, it's reference is copied to that variable not the object itself.
 * Any change to one variable will affect the other variable having the same object reference stored.
 * Similarly Objects are passed by reference in functions as argument and any modification by the function on the object reference is reflected in the original Object.
+
+* this keyword in method refers to the object on which the method is called.
+* Regular functions have it's own this, so when regular function is called on an object, this references to the object.
+* On the other hand, arrow function do not have it's own this so it should never be used as a method if this keyword is being used.
+* The arrow function inherits this from it's lexical scope.
+* So if a regular function is nested in a method, this in that function will have an empty this.
+* To use this keyword inside the nested function, we should use the arrow function.
