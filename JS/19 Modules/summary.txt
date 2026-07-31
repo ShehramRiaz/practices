@@ -1,0 +1,36 @@
+ES6 Modules
+
+• Modules are an ES6 feature that allow us to split code into multiple JavaScript files.
+• They improve code organization, maintainability, and reusability.
+• Each module has its own module scope.
+• Variables, functions, and classes are accessible outside a module only if they are exported.
+• The export keyword is used to export values.
+• The import keyword is used to import exported values from another module.
+• Modules are executed only once and are then cached.
+• ES modules run in strict mode by default.
+
+Named Export
+• Created using the export keyword.
+• A module can have multiple named exports.
+• Imported using {} braces.
+• Can be renamed using the as keyword while importing.
+
+Default Export
+• Created using the export default keywords.
+• A module can have only one default export.
+• Imported without {} braces.
+• Can be imported using any valid name.
+
+Exporting
+• We can export each declaration individually using the export keyword.
+• We can also export multiple declarations together using export { ... } at the end of the file.
+
+Importing
+• Import specific named exports using {}.
+• Import all named exports using import * as name.
+• Import the default export without {} braces.
+
+Module Loading
+• Only the entry (main) module needs to be included in the HTML.
+• Imported modules are loaded automatically by the browser.
+• Module scripts are deferred by default.
