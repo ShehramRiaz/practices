@@ -1,0 +1,10 @@
+* Destructuring is a modern way of extracting Array and Objects values to store in variables.
+* Without Destructuring, We have to access each value by using bracket notation and assign that value to a variable. Destructuring Solves this problem.
+* Array Destructuring uses [] while Object Destructuring uses {} notation.
+* We can swap the value of two variables efficiently using Array Destructuring.
+* The order of variables matters in Array Destructuring. The corresponding array elements are assigned to each variable on corresponding position.
+
+* Object Destructuring use property names instead of corresponding elements.
+* We can rename the variable in Object Destructuring.
+* We can provide default values in both array and Object Destructuring.
+* The ...rest operator is used to collect the remaining values.
