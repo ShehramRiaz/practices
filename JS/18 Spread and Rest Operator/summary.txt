@@ -1,0 +1,19 @@
+* Spread Operator (...)
+* Expands (unpacks) arrays, objects, or iterables into individual elements.
+* Used to copy arrays and objects.
+* Used to merge arrays and objects.
+* Used to insert elements into arrays.
+* Used to pass array elements as separate function arguments.
+* Works with strings by spreading them into individual characters.
+* Creates a shallow copy, not a deep copy.
+* If object properties are duplicated, the last property overrides the previous one.
+
+* Rest Operator (...)
+* Collects multiple values into a single array or object.
+* Used in function parameters to accept any number of arguments.
+* Used in array destructuring to collect remaining elements.
+* Used in object destructuring to collect remaining properties.
+* Rest parameter in functions must always be the last parameter.
+* Only one rest parameter is allowed in a function.
+
+* Both use the same syntax (...), but their behavior depends on the context.
