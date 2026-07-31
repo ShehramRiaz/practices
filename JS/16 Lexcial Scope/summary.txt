@@ -1,0 +1,2 @@
+* Lexical scope means that a function accesses variables based on where it is defined in the source code, not where it is called.
+* It means the value of a variable defined before function definition is used rather than the value updated before the function call.
