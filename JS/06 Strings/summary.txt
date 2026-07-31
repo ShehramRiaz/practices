@@ -1,11 +1,17 @@
 * Strings in JavaScript are the sequence of characters enclosed in single quote, double quote or backticks.
-* String is actually a JavaScript Object with built-in properties and methods.
+* String is internally a JavaScript Object with built-in properties and methods.
 * One of the properties of String is the length property which gives the number of characters in the string.
 * Each character in string is assigned a position number called the index number which starts from 0.
 * We can access a specific character by it's position number just in the way we access Object properties.
 
 * Template literal is a way of writing strings with embedded expressions using placeholders in string instead of concatenating multiple strings.
 * Template literals are declared by using backticks.
+* String interpolation is the major characteristic of Template literals.
+* String interpolation means embedding variables and expressions inside the string using ${}.
+* We can nest another Template literal in expression placeholders ${}.
+* tagged Template is a function that accepts a Template literal as argument without parenthesis during function call.
+* tagged Template function first argument is an array of the strings and second argument is the array of expressions used in Template literal.
+* The length of string array is always one greater than that of the expression array.
 
 * Escape sequence allow us to print special characters inside strings.
 * Escape sequence character starts with back-slash along with the character to be printed.
