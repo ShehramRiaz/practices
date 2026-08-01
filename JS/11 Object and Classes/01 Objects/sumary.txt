@@ -31,3 +31,13 @@
 - Deep Copy
 * A deep copy creates completely independent copies, including all nested objects.
 * structuredClone() function can be used to perform a deep copy of an object.
+
+* Built-in Object Methods
+- Object.keys(): returns an array of object's own keys.
+- Object.value(): return an array of object's own values.
+- Object.entries(): returns a multi-dimensional array of object's key-value pairs.
+- Object.assign(): Copies properties form multiple objects to target object and perform a shallow copy.
+- Object.freeze(): Makes an Object completely Immutable so no property can be added, modified or deleted. This behavior is only applied for the top level properties not nested objects.
+- Object.seal(): Similar to freeze() but modification in the existing properties are allowed. This behavior is only applied for the top level properties not nested objects.
+- Object.hasOwn(): Checks if an object owns the specified property.
+- Object.fromEntries(): Creates an Object form multi-dimensional array of entries.
