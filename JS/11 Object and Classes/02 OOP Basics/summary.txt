@@ -1,0 +1,30 @@
+* There are two programming paradigms.
+- Procedural Programming
+* The programming paradigm in which the functions and data are separate.
+
+- OOP
+* OOP (Object-Oriented Programming) is a programming paradigm that organizes code using objects.
+
+* Four Pillars of OOP
+- Encapsulation
+* Bundling related data and methods into a single object.
+
+- Abstraction
+* Abstraction means hiding unnecessary implementation details and exposing only what the user needs.
+
+- Inheritance
+* Inheritance allows one object or class to reuse the properties and methods of another.
+
+- Polymorphism
+* Polymorphism means the same method name can behave differently depending on the object.
+
+* We can create similar objects by using the constructor function.
+* A constructor function is a regular function used with the new keyword to create objects.
+* By convention, Constructor functions are written in PascalCase.
+* The new keyword performs 4 task
+- Create an empty object.
+- Set it's prototype to the Constructor's prototype.
+- Binds this with the newly created object.
+- Return the newly created object.
+
+
