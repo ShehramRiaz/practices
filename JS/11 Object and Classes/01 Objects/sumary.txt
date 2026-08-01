@@ -1,0 +1,9 @@
+* An object is a collection of related data and functionality stored as key-value pairs and separated by comma.
+* It can store any type of data.
+
+* We can access individual property by using either dot or bracket notation.
+* Dot property accessor is used when we know the name of the property or the name of the property is a valid JavaScript Identifier.
+* Bracket property accessor is used when the property name is stored in a variable or the property is not a valid JavaScript Identifier.
+
+* Objects are dynamic, we can add or update properties dynamically in Objects.
+* Object properties can be deleted using the delete keyword.
