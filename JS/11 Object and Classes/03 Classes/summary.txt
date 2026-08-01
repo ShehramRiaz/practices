@@ -9,3 +9,17 @@
 * super is used to call the parent class constructor.
 * If inherited class has no constructor, Javascript implicitly create an empty constructor and calls super();
 * We can also call the parent class methods by using super.parentMethod();
+
+* We can associate methods to the class itself by using static methods.
+* static keyword is used to make a function static.
+* We can only call static method from Class
+* static method cannot be called from instances of the class.
+
+* Getters and Setters allow us to use the methods as if they were properties.
+* Getter can be declared by preceding method declaration by get keyword.
+* Setter can be declared by preceding method declaration by set keyword.
+* Getter do not have any parameters, it only return values.
+* Setter must have exactly one parameter.
+* Setter do not accept more than one arguments.
+* One pair of Getter-Setter method can have same name.
+* They are used just like other properties of object without parenthesis.
