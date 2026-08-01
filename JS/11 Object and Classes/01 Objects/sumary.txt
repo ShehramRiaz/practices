@@ -7,3 +7,11 @@
 
 * Objects are dynamic, we can add or update properties dynamically in Objects.
 * Object properties can be deleted using the delete keyword.
+
+* In addition to properties, Objects can also store functions which in context of Objects are called methods.
+* So, method is just a function that belongs to an object.
+* Methods in objects are used to perform some actions on the properties of object.
+
+* Methods can access object properties by using the this keyword.
+* this keyword in a method refers to the object which called that method.
+* Arrow functions should be avoided as object methods because it inherit this from parent function which is called by an object.
