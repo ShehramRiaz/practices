@@ -1,0 +1,5 @@
+* A class is a blueprint for creating objects.
+* The class name is written in PascalCase by convention.
+* constructor method is used to initialize the Object and is called automatically when an object of that class is created.
+* Unlike Old Constructor Functions, methods are written directly inside the class declarations.
+* The methods defined in class are shared among all Objects.
