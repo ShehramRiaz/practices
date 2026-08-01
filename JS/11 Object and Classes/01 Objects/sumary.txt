@@ -15,3 +15,19 @@
 * Methods can access object properties by using the this keyword.
 * this keyword in a method refers to the object which called that method.
 * Arrow functions should be avoided as object methods because it inherit this from parent function which is called by an object.
+
+* Unlike primitive datatypes that are store by value, Objects are stored by reference.
+* When we assign an object to a variable, it's reference is stored in the variable not the object itself.
+* So changes made in one variable will be reflected in the other because there is only one object stored in memory.
+
+* When comparing two objects having same properties return false because we are actually comparing the object references, not the Objects.
+
+* There are two types of Copies:
+- Shallow Copy
+* The outer object is copied but the inner objects are still shared.
+* Changes in the inner objects of copy will be reflected in the original.
+* The spread Operator performs a shallow copy.
+
+- Deep Copy
+* A deep copy creates completely independent copies, including all nested objects.
+* structuredClone() function can be used to perform a deep copy of an object.
