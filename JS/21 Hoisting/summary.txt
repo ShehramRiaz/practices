@@ -1,0 +1,12 @@
+* Hoisting is JavaScript's behavior of processing variable and Function declarations before code execution.
+* JavaScript has two phases:
+* Creation Phase (memory allocation)
+* Execution Phase (runs code)
+* var is hoisted and initialized with undefined.
+* let and const are hoisted but remain in the Temporal Dead Zone (TDZ) until their declaration.
+* TDZ (Temporal Dead Zone) is the period between entering a scope and the variable's declaration where let and const cannot be accessed.
+* Accessing let or const before declaration throws a ReferenceError.
+* Function declarations are fully hoisted and can be called before they are defined.
+* Function expressions and arrow functions are not fully hoisted; they cannot be called before initialization.
+* Prefer let and const over var in modern JavaScript.
+* Do not rely on hoisting; always declare variables and functions before using them.
