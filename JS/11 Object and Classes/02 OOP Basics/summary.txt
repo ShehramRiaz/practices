@@ -27,4 +27,14 @@
 - Binds this with the newly created object.
 - Return the newly created object.
 
+* A prototype is an object that other objects can inherit properties and methods from.
+* Without prototypes, every object created from the constructor will have it's own copy of the method.
+* Prototypes solves this problem by creating one method in the Constructor prototype and all other object created from that constructor will use it.
 
+* A prototype is itself and object so it also has a prototype, this chain of prototypes is called prototype chain.
+
+* If JavaScript can't find a property in object, it keeps moving up the prototype chain until it reaches null.
+
+* In case of same properties in object itself and prototype, the object property wins.
+
+* instanceof operator checks whether Constructor's prototype exists in object prototype chain.
