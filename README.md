@@ -24,6 +24,7 @@ practices/
 ├── HTML/
 ├── CSS/
 ├── JavaScript/
+├── TypeScript/
 ├── React/             (Coming Soon)
 ├── Node.js/           (Coming Soon)
 ├── Express.js/        (Coming Soon)
@@ -40,12 +41,12 @@ practices/
 * JavaScript
 * Git
 * Github
+* TypeScript
 
 ### 🚧 Planned
 
 As I continue learning, this repository will gradually include practice work for:
 
-* TypeScript
 * React
 * Node.js
 * Express.js
