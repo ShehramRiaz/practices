@@ -1,38 +1,39 @@
-function Login() {
-  return <p>Please Login!!</p>;
+type UserStatusProps = {
+  isLoggedIn: boolean;
+  isAdmin: boolean;
+};
+
+type DashboardProps = Pick<UserStatusProps, "isAdmin">;
+
+function Logout() {
+  return (
+    <>
+      <p>Please log in.</p>
+      <button>Login</button>
+    </>
+  );
 }
 
-function Dashboard() {
-  return <h2>Welcome</h2>;
+function Dashboard({ isAdmin }: DashboardProps) {
+  return (
+    <>
+      <p>Welcome back{isAdmin ? ", Admin!" : "!"}</p>
+      <h1>Dashboard</h1>
+      {isAdmin && <h2>Admin Panel</h2>}
+      <button>Logout</button>
+    </>
+  );
 }
 
-function Status() {
-  const isLoggedIn = true;
-
+function UserStatus({ isAdmin, isLoggedIn }: UserStatusProps) {
   if (isLoggedIn) {
-    return <Dashboard />;
-  } else {
-    return <Login />;
+    return <Dashboard isAdmin={isAdmin} />;
   }
-}
-
-function Role() {
-  const isAdmin = true;
-
-  return <>{isAdmin ? <p>Admin</p> : <p>User</p>}</>;
+  return <Logout />;
 }
 
 function App() {
-  const count = 0;
-
-  return (
-    <>
-      <Status />
-      <Role />
-
-      {count > 0 && <p>Products Available</p>}
-    </>
-  );
+  return <UserStatus isAdmin={true} isLoggedIn={true} />;
 }
 
 export default App;
