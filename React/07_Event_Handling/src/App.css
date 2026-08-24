@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product__list {
+  max-width: 500px;
+  list-style-type: none;
+  padding: 1rem;
+  background-color: rgba(211, 211, 211, 0.24);
+}
+
+.product__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.product__item:nth-child(odd){
+  background-color: inherit;
+}
+
+.product__info {
+  display: flex;
+  gap: 20px;
+}
+
+.product__delete {
+  padding: 0.5rem 0.8rem;
+  background-color: rgb(255, 64, 64);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
