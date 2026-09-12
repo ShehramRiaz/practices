@@ -1,0 +1,10 @@
+.list {
+  margin: auto;
+  width: 70%;
+  background-color: lightblue;
+}
+
+.item {
+  padding: 1em;
+  font-size: 1.2rem;
+}
