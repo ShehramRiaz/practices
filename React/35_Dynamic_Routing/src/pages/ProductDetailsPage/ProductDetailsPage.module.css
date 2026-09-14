@@ -1,0 +1,39 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+.card {
+  padding: 40px;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  background: white;
+}
+
+.category {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: #f1f1f1;
+  color: #555;
+  font-size: 14px;
+}
+
+.name {
+  margin: 0 0 20px;
+  font-size: 38px;
+}
+
+.description {
+  margin: 0 0 30px;
+  line-height: 1.8;
+  color: #555;
+}
+
+.price {
+  margin-bottom: 12px;
+  font-size: 28px;
+  font-weight: bold;
+}
