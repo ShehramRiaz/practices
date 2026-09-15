@@ -1,0 +1,64 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.heading p {
+  margin: 6px 0 0;
+  color: #7b8495;
+  font-size: 14px;
+}
+
+.count {
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 8px;
+  color: #697386;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.tableHeader {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr 1.1fr;
+  gap: 15px;
+  padding: 15px 20px;
+  background: #f8f9fb;
+  border-bottom: 1px solid #edf0f4;
+  color: #8a94a6;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 700px) {
+  .tableHeader {
+    display: none;
+  }
+
+  .heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

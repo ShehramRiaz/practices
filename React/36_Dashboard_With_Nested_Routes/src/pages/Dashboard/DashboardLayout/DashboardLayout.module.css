@@ -1,0 +1,149 @@
+.dashboard {
+  min-height: 100vh;
+  display: flex;
+  background: #f5f7fb;
+  color: #172033;
+}
+
+.sidebar {
+  width: 260px;
+  height: 100vh;
+  background: #ffffff;
+  border-right: 1px solid #e8ebf1;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 10px 28px;
+}
+
+.logoIcon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: grid;
+  place-items: center;
+  background: #4f46e5;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.logo span {
+  display: block;
+  margin-top: 3px;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+.content {
+  width: calc(100% - 260px);
+  margin-left: 260px;
+}
+
+.topbar {
+  height: 82px;
+  background: #ffffff;
+  border-bottom: 1px solid #e8ebf1;
+  padding: 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.breadcrumb {
+  margin: 0 0 4px;
+  color: #8a94a6;
+  font-size: 13px;
+}
+
+.topbar h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.userAvatar,
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-weight: 700;
+}
+
+.main {
+  padding: 32px 36px;
+  max-width: 1400px;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  border-top: 1px solid #edf0f4;
+  padding: 18px 10px 4px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebarFooter strong {
+  display: block;
+  font-size: 14px;
+}
+
+.sidebarFooter span {
+  display: block;
+  margin-top: 3px;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 72px;
+    padding: 20px 10px;
+  }
+
+  .logo {
+    justify-content: center;
+    padding: 0 0 24px;
+  }
+
+  .logo > div:last-child,
+  .sidebarFooter > div:last-child {
+    display: none;
+  }
+
+  .sidebarFooter {
+    justify-content: center;
+  }
+
+  .content {
+    width: calc(100% - 72px);
+    margin-left: 72px;
+  }
+
+  .topbar {
+    padding: 0 20px;
+  }
+
+  .main {
+    padding: 24px 20px;
+  }
+}

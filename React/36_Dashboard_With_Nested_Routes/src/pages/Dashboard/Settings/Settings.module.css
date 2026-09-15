@@ -1,0 +1,93 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.heading p {
+  margin: 6px 0 0;
+  color: #7b8495;
+  font-size: 14px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.section {
+  padding: 25px;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section h2 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.section > div:first-child p {
+  margin: 5px 0 18px;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+.setting {
+  min-height: 60px;
+  padding: 14px 16px;
+  background: #f8f9fb;
+  border: 1px solid #edf0f4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.setting strong,
+.setting span {
+  display: block;
+}
+
+.setting strong {
+  font-size: 13px;
+}
+
+.setting span {
+  margin-top: 3px;
+  color: #8a94a6;
+  font-size: 11px;
+}
+
+.badge {
+  padding: 6px 10px;
+  background: #eef2ff;
+  border-radius: 7px;
+  color: #4f46e5 !important;
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.toggle {
+  width: 42px;
+  height: 23px;
+  padding: 3px;
+  border-radius: 20px;
+  background: #dfe3ea;
+}
+
+.toggle div {
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  background: white;
+}

@@ -1,0 +1,88 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.heading p {
+  margin: 6px 0 0;
+  color: #7b8495;
+  font-size: 14px;
+}
+
+.profileCard {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 16px;
+  padding: 28px;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid #edf0f4;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #ede9fe;
+  color: #6d28d9;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.profileHeader h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.profileHeader p {
+  margin: 5px 0 0;
+  color: #8a94a6;
+}
+
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1px;
+  background: #edf0f4;
+  margin-top: 28px;
+  border: 1px solid #edf0f4;
+}
+
+.info {
+  background: white;
+  padding: 20px;
+}
+
+.info span {
+  display: block;
+  color: #8a94a6;
+  font-size: 12px;
+  margin-bottom: 7px;
+}
+
+.info strong {
+  font-size: 14px;
+}
+
+.status {
+  color: #16a34a;
+}
+
+@media (max-width: 600px) {
+  .infoGrid {
+    grid-template-columns: 1fr;
+  }
+}

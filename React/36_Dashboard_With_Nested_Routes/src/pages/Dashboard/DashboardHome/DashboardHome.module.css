@@ -1,0 +1,252 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.heading h1 {
+  margin: 0;
+  font-size: 28px;
+  letter-spacing: -0.5px;
+}
+
+.heading p {
+  margin: 6px 0 0;
+  color: #7b8495;
+  font-size: 14px;
+}
+
+.button {
+  padding: 11px 18px;
+  border-radius: 9px;
+  background: #4f46e5;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #4338ca;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 14px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 11px;
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.blue {
+  background: #e8f1ff;
+  color: #2563eb;
+}
+
+.purple {
+  background: #f0eafe;
+  color: #7c3aed;
+}
+
+.green {
+  background: #e7f8ef;
+  color: #16a34a;
+}
+
+.orange {
+  background: #fff2df;
+  color: #ea580c;
+}
+
+.card span,
+.card small {
+  display: block;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+.card strong {
+  display: block;
+  margin: 5px 0;
+  font-size: 22px;
+}
+
+.card small {
+  color: #16a34a;
+}
+
+.bottomGrid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 20px;
+}
+
+.panel {
+  background: white;
+  border: 1px solid #e8ebf1;
+  border-radius: 14px;
+  padding: 22px;
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.panelHeader h2 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.panelHeader p {
+  margin: 5px 0 0;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+.panelHeader a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 0;
+  border-top: 1px solid #f0f1f5;
+}
+
+.activityIcon {
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: grid;
+  place-items: center;
+  background: #eef2ff;
+  color: #4f46e5;
+  font-weight: 700;
+}
+
+.activity strong,
+.activity span {
+  display: block;
+}
+
+.activity strong {
+  font-size: 13px;
+}
+
+.activity span {
+  margin-top: 4px;
+  color: #939baa;
+  font-size: 11px;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 8px 0 25px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: #ede9fe;
+  color: #6d28d9;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.account strong,
+.account span {
+  display: block;
+}
+
+.account span {
+  margin-top: 4px;
+  color: #8a94a6;
+  font-size: 12px;
+}
+
+.progressTop {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  font-size: 12px;
+}
+
+.progressTop span {
+  color: #7b8495;
+}
+
+.progressTop strong {
+  color: #4f46e5;
+}
+
+.progressBar {
+  height: 7px;
+  background: #eef0f4;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progressBar div {
+  width: 80%;
+  height: 100%;
+  background: #4f46e5;
+  border-radius: inherit;
+}
+
+@media (max-width: 1000px) {
+  .stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottomGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+}
