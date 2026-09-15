@@ -1,32 +1,9 @@
-import { useEffect, useState } from "react";
-import { getProducts } from "../../api/products";
 import ProductCard from "../../components/ProductCard/ProductCard";
+import useProducts from "../../hooks/useProducts";
 import styles from "./ProductsPage.module.css";
-import type { Product } from "../../types/product";
 
 function ProductsPage() {
-  const [products, setProducts] = useState<Product[]>([]);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState("");
-
-  useEffect(() => {
-    async function fetchProducts() {
-      try {
-        const products = await getProducts();
-        // throw new Error("Fake Error");
-        
-        setProducts(products);
-      } catch (error) {
-        if (error instanceof Error) {
-          setError(error.message);
-        }
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    fetchProducts();
-  }, []);
+  const { products, loading, error } = useProducts();
 
   return (
     <main className={styles.page}>
@@ -37,7 +14,7 @@ function ProductsPage() {
 
       {loading && <p>Loading...</p>}
 
-      {error !== "" ? (
+      {error ? (
         <p>{error}</p>
       ) : (
         <section className={styles.grid}>
