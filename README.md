@@ -26,6 +26,7 @@ practices/
 ├── JavaScript/
 ├── TypeScript/
 ├── React/
+├── DSA C++/
 ├── Node.js/           (Coming Soon)
 ├── Express.js/        (Coming Soon)
 ├── SQL/               (Coming Soon)
@@ -43,6 +44,7 @@ practices/
 * Github
 * TypeScript
 * React
+* DSA C++
 
 ### 🚧 Planned
 
