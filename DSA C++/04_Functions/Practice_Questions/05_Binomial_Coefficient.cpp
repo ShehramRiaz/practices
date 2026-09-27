@@ -18,9 +18,9 @@ int factorial(int n)
   return fact;
 }
 
-double nCr(int n, int r)
+int nCr(int n, int r)
 {
-  return (double)factorial(n) / (factorial(r) * factorial(n - r));
+  return factorial(n) / (factorial(r) * factorial(n - r));
 }
 
 int main()
