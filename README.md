@@ -26,6 +26,7 @@ practices/
 ├── JavaScript/
 ├── TypeScript/
 ├── React/
+├── Tailwind CSS/
 ├── DSA C++/
 ├── Node.js/           (Coming Soon)
 ├── Express.js/        (Coming Soon)
@@ -44,6 +45,7 @@ practices/
 * Github
 * TypeScript
 * React
+* Tailwind CSS
 * DSA C++
 
 ### 🚧 Planned
