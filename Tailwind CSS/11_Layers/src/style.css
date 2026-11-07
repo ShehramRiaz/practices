@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-blue: oklch(21.17% 0.08856 275.757);
+  --font-arial: Arial, sans-serif;
+  --text-para: 1.2rem;
+}
+
+@utility grid-cols-autofit {
+  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+}
+
+@layer base {
+  h1,
+  h2,
+  h3 {
+    font-weight: 700;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-blue-800 space-y-2 p-3 rounded-lg bg-linear-to-bl from-purple-800 to-blue-800;
+  }
+}
